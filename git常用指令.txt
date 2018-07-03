@@ -1,54 +1,54 @@
-1.git init  ³õÊ¼»¯
+1.git init  ï¿½ï¿½Ê¼ï¿½ï¿½
 
-2.git remote add <Ô¶³ÌÖ÷»úÃû> https://   Ìí¼ÓÔ¶³ÌÖ÷»ú¹ÜÀí
+2.git remote add <Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½> https://   ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 3.git config --global user.email "youremail"
 
 4.git config --global user.name "yourname" 
 
-5.git status ²é¿´ÎÄ¼þ×´Ì¬
+5.git status ï¿½é¿´ï¿½Ä¼ï¿½×´Ì¬
 
-6.git branch dev ´´½¨dev·ÖÖ§
+6.git branch dev ï¿½ï¿½ï¿½ï¿½devï¿½ï¿½Ö§
 
-7.git add  Ìí¼ÓÎÄ¼þ
+7.git add  ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½
 
-8.git commit -m "×¢ÊÍ"
+8.git commit -m "×¢ï¿½ï¿½"
 
-9.git pull <Ô¶³ÌÖ÷»úÃû> <Ô¶³Ì·ÖÖ§Ãû>:<±¾µØ·ÖÖ§Ãû>
+9.git pull <Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½> <Ô¶ï¿½Ì·ï¿½Ö§ï¿½ï¿½>:<ï¿½ï¿½ï¿½Ø·ï¿½Ö§ï¿½ï¿½>
 
-10. git push <Ô¶³ÌÖ÷»úÃû> <±¾µØ·ÖÖ§Ãû>:<Ô¶³Ì·ÖÖ§Ãû>
+10. git push <Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½> <ï¿½ï¿½ï¿½Ø·ï¿½Ö§ï¿½ï¿½>:<Ô¶ï¿½Ì·ï¿½Ö§ï¿½ï¿½>
 
 10. git push hcm master:dev
 
 **********************************************************
 
-³£ÓÃgitÖ¸Áî£º
-git log  ²é¿´Ìá½»ÈÕÖ¾
+ï¿½ï¿½ï¿½ï¿½gitÖ¸ï¿½î£º
+git log  ï¿½é¿´ï¿½á½»ï¿½ï¿½Ö¾
 
-git diff  ²é¿´ÎÄ¼þÐÞ¸ÄµÄÄÚÈÝ
+git diff  ï¿½é¿´ï¿½Ä¼ï¿½ï¿½Þ¸Äµï¿½ï¿½ï¿½ï¿½ï¿½
 
-git remote -v ²é¿´Ô¶³ÌÖ÷»ú
+git remote -v ï¿½é¿´Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-git branch -vv ²é¿´·ÖÖ§
+git branch -vv ï¿½é¿´ï¿½ï¿½Ö§
 
-git branch dev   ´´½¨±¾µØdev·ÖÖ§
+git branch dev   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½devï¿½ï¿½Ö§
 
-git checkout dev   ÇÐ»»µ½dev·ÖÖ§£¨ÐèÒªÓÐdev·ÖÖ§£©
+git checkout dev   ï¿½Ð»ï¿½ï¿½ï¿½devï¿½ï¿½Ö§ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½devï¿½ï¿½Ö§ï¿½ï¿½
 
-git checkout -b  ==>  ´´½¨²¢ÇÒÇÐ»»µ½dev
+git checkout -b  ==>  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½ï¿½ï¿½dev
 
-git branch -m test dev ÖØÃüÃû±¾µØtest·ÖÖ§Îªdev
+git branch -m test dev ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½testï¿½ï¿½Ö§Îªdev
 
-git branch -d dev   É¾³ý±¾µØdev·ÖÖ§
+git branch -d dev   É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½devï¿½ï¿½Ö§
 
-git branch --set-upstream dev hcm/dev ÉèÖÃ±¾µØdev·ÖÖ§¹ØÁªÔ¶³Ìhcm²Ö¿âµÄdev·ÖÖ§
+git branch --set-upstream dev hcm/dev ï¿½ï¿½ï¿½Ã±ï¿½ï¿½ï¿½devï¿½ï¿½Ö§ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½hcmï¿½Ö¿ï¿½ï¿½devï¿½ï¿½Ö§
  
-git merge dev  °Ñ dev·ÖÖ§ ºÏ²¢µ½ master
+git merge dev  ï¿½ï¿½ devï¿½ï¿½Ö§ ï¿½Ï²ï¿½ï¿½ï¿½ master
 
 **********************************************************
 
-³£¼û´íÎó½â¾ö·½°¸£º
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 1. git pull => fatal: refusing to merge unrelated histories
-	½â¾ö£ºgit pull <Ô¶³ÌÖ÷»úÃû> <Ô¶³Ì·ÖÖ§Ãû>:<±¾µØ·ÖÖ§Ãû> --allow-unrelated-histories
+	ï¿½ï¿½ï¿½ï¿½ï¿½git pull <Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½> <Ô¶ï¿½Ì·ï¿½Ö§ï¿½ï¿½>:<ï¿½ï¿½ï¿½Ø·ï¿½Ö§ï¿½ï¿½> --allow-unrelated-histories
 
 ttttt
