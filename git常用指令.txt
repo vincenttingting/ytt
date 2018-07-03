@@ -50,3 +50,5 @@ git merge dev  把 dev分支 合并到 master
 常见错误解决方案：
 1. git pull => fatal: refusing to merge unrelated histories
 	解决：git pull <远程主机名> <远程分支名>:<本地分支名> --allow-unrelated-histories
+
+sss
