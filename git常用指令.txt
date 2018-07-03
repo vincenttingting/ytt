@@ -1,0 +1,52 @@
+1.git init  初始化
+
+2.git remote add <远程主机名> https://   添加远程主机管理
+
+3.git config --global user.email "youremail"
+
+4.git config --global user.name "yourname" 
+
+5.git status 查看文件状态
+
+6.git branch dev 创建dev分支
+
+7.git add  添加文件
+
+8.git commit -m "注释"
+
+9.git pull <远程主机名> <远程分支名>:<本地分支名>
+
+10. git push <远程主机名> <本地分支名>:<远程分支名>
+
+10. git push hcm master:dev
+
+**********************************************************
+
+常用git指令：
+git log  查看提交日志
+
+git diff  查看文件修改的内容
+
+git remote -v 查看远程主机
+
+git branch -vv 查看分支
+
+git branch dev   创建本地dev分支
+
+git checkout dev   切换到dev分支（需要有dev分支）
+
+git checkout -b  ==>  创建并且切换到dev
+
+git branch -m test dev 重命名本地test分支为dev
+
+git branch -d dev   删除本地dev分支
+
+git branch --set-upstream dev hcm/dev 设置本地dev分支关联远程hcm仓库的dev分支
+ 
+git merge dev  把 dev分支 合并到 master
+
+**********************************************************
+
+常见错误解决方案：
+1. git pull => fatal: refusing to merge unrelated histories
+	解决：git pull <远程主机名> <远程分支名>:<本地分支名> --allow-unrelated-histories
