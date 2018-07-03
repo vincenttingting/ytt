@@ -1,0 +1,15 @@
+.my-btn{
+    width: 100px;
+    height: 48px;
+    outline: none;
+    color: #fff;
+}
+.blue{
+    border: 1px solid blue;
+}
+.red{
+    border: 1px solid red;
+}
+.yellow{
+    border: 1px solid yellow;
+}
